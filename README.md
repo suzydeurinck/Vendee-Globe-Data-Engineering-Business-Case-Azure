@@ -30,8 +30,7 @@ Our primary objective was to develop a cloud-based Lambda Architecture on Micros
 ## Methodology
 1. **Python Simulator Setup**:
 Launched the Python simulator for telemetry data generation using Windows Power Shell and these lines of code:
-     py -m pip install azure-eventhub
-     python .\race_simulator.py
+     py -m pip install azure-eventhub and python .\race_simulator.py
 ![Python Simulator](https://github.com/suzydeurinck/Vendee-Globe-Data-Engineering-Business-Case-Azure/blob/1015b15241b38b13fe8f8cb1319a7a7a75f459fe/PythonSimulator.png)
 
 2. **Event Hub Configuration**:
