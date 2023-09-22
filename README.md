@@ -22,7 +22,7 @@ Our primary objective was to develop a cloud-based Lambda Architecture on Micros
 - **Azure Stream Analytics Job:** Employed for real-time data processing and transformation, ensuring that data was available for visualization.
 - **Azure Data Lake Gen 2:** Served as our data storage solution, housing data for subsequent analysis.
 - **Azure Synapse Analytics:** Utilized for analytics and querying capabilities, particularly with the serverless SQL pool.
-- **Power BI:** Employed for data visualization and interactive dashboard creation, enabling users to monitor the Vendée Globe race in real time.
+- **Power BI:** Employed for data visualization and interactive dashboard creation.
 - **Python:** Leveraged Python to develop a simulation application for generating telemetry data.
 - **GitHub:** Utilized GitHub as a collaborative platform for project management, ensuring seamless teamwork throughout the project.
 - **Azure Portal:** Used Azure Portal for configuring and managing Azure resources.
