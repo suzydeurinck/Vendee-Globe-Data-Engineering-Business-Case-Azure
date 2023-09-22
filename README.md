@@ -28,9 +28,49 @@ Our primary objective was to develop a cloud-based Lambda Architecture on Micros
 - **Azure Portal:** Used Azure Portal for configuring and managing Azure resources.
 
 ## Methodology
-
+1. **Python Simulator Setup**:
+Launched the Python simulator for telemetry data generation using Windows Power Shell and these lines of code:
+     py -m pip install azure-eventhub
+     python .\race_simulator.py
 ![Python Simulator](https://github.com/suzydeurinck/Vendee-Globe-Data-Engineering-Business-Case-Azure/blob/1015b15241b38b13fe8f8cb1319a7a7a75f459fe/PythonSimulator.png)
 
+2. **Event Hub Configuration**:
+Created and configured Event Hub Namespace and added a new Event Hub
+Established a Shared Access Policy for data transmission
+
+3. **Stream Analytics Job**:
+Set up Stream Analytics Job with an input and two outputs: one for the Data Lake, and one for PowerBI.
+
+4. **Stream Analytics Query**:
+Cleaned the garbled data by changing the query into
+SELECT
+    *
+INTO
+    [outputdatalake]
+FROM
+    [inputevent]
+WHERE latitude > -10000 AND longitude > -10000
+
+and
+
+SELECT
+    *
+INTO
+    [outputpowerbi]
+FROM
+    [inputevent]
+    WHERE latitude > -10000 AND longitude > -10000
+
+5. **Data Lake Gen2**:
+   - Created and named Azure Storage Account for Data Lake Gen2.
+   - Utilize the Data Lake in Azure Synapse Analytics to create a serverless SQL pool.
+   - Created an external table for ranking boat data, leveraging Data Lake Gen2 as a data source.
+
+6. **Power BI Dashboard**:
+   - Created a workspace in Power BI Service.
+   - Developed real-time data visualization, including a maps and a live tile.
+
+These steps highlight the key actions undertaken in the Vendée Globe Data Engineering Business Case.
 
 ## Report Results
 
