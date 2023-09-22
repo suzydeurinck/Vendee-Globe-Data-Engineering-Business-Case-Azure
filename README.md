@@ -29,6 +29,9 @@ Our primary objective was to develop a cloud-based Lambda Architecture on Micros
 
 ## Methodology
 
+![Python Simulator](https://github.com/suzydeurinck/Vendee-Globe-Data-Engineering-Business-Case-Azure/blob/1015b15241b38b13fe8f8cb1319a7a7a75f459fe/PythonSimulator.png)
+
+
 ## Report Results
 
 ## Contributors
