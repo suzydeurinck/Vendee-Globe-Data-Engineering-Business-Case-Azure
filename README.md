@@ -74,7 +74,7 @@ These steps highlight the key actions undertaken in the Vendée Globe Data Engin
 
 ![ExternalTable](https://github.com/suzydeurinck/Vendee-Globe-Data-Engineering-Business-Case-Azure/blob/e1f20a30149192c2c4cb581dda29755945703bc4/ExternalTable.png)
 
-
+![OverviewProcessMiro](https://github.com/suzydeurinck/Vendee-Globe-Data-Engineering-Business-Case-Azure/blob/e9967f8e5726cea6d55b08d85ddda41e8641cd7c/OverviewProcessMiro.png)
 
 ## Contributors
 Javeria Umer, Vidisha Gedam, Lavanya Laxmi Uppara, Suzy Deurinck
