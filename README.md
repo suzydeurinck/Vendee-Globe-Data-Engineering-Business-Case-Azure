@@ -5,6 +5,8 @@ I present the "Microsoft Azure Certified Data & AI Track Vendée Globe Business 
 
 This repository serves as a demonstration of my technical skills and ability to tackle complex real-world data engineering challenges. It showcases the successful completion of the Microsoft Azure Certified Data & AI Track Vendée Globe Business Case, highlighting the development of a Lambda Architecture, PowerBI dashboard, and integration of a Python race simulation app for data generation.
 
+https://github.com/suzydeurinck/Vendee-Globe-Data-Engineering-Business-Case-Azure/blob/b34b48804549bad9369d92f5edc31ce1ea3f8b98/LambdaArchitectureAzure.png
+
 ## Objective
 Our primary objective was to develop a cloud-based Lambda Architecture on Microsoft Azure, incorporating Stream Analytics Job, Power BI, and Data Lake Gen 2. This architecture enables real-time and batch processing of telemetry data from sailing boats in the Vendée Globe race. The ultimate goal was to create an engaging Power BI dashboard, providing users with real-time race position tracking and rankings, despite the absence of live race data.
 
