@@ -11,6 +11,12 @@ This repository serves as a demonstration of my technical skills and ability to 
 Our primary objective was to develop a cloud-based Lambda Architecture on Microsoft Azure, incorporating Stream Analytics Job, Power BI, and Data Lake Gen 2. This architecture enables real-time and batch processing of telemetry data from sailing boats in the Vendée Globe race. The ultimate goal was to create an engaging Power BI dashboard, providing users with real-time race position tracking and rankings, despite the absence of live race data.
 
 ## Features
+- **Real-Time Telemetry Data:** Our system seamlessly processes real-time telemetry data from sailing boats participating in the Vendée Globe race, providing instant updates on their positions.
+- **PowerBI Dashboard:** We've created a dynamic PowerBI dashboard that offers a captivating visual representation of the race. It displays the current locations of racing teams on a world map and ranks them in real-time.
+- **Azure-Powered Lambda Architecture:** Leveraging Microsoft Azure services, including Stream Analytics Job, Power BI, and Data Lake Gen 2, we built a robust Lambda Architecture that enables both real-time and batch data processing.
+- **Simulated Data Integration:** Despite the absence of live race data, we integrated a Python race simulation application to generate telemetry data, allowing us to demonstrate the functionality of our data processing pipeline.
+- **Data Insight:** Our system provides valuable insights into the Vendée Globe race, even with simulated data. It showcases our expertise in data engineering and Azure services, offering a glimpse into the potential of real-world applications.
+
 
 ## Technologies Used
 
