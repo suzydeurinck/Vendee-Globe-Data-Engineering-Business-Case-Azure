@@ -40,7 +40,9 @@ Established a Shared Access Policy for data transmission
 3. **Stream Analytics Job**:
 Set up Stream Analytics Job with an input and two outputs: one for the Data Lake, and one for PowerBI.
 
-4. **Stream Analytics Query**:
+![Stream Analytics](https://github.com/suzydeurinck/Vendee-Globe-Data-Engineering-Business-Case-Azure/blob/ecd362348afac3d25bc2d49f277b3970dac2e30a/StreamAnalytics.png)
+
+5. **Stream Analytics Query**:
 Cleaned the garbled data by changing the query into
 SELECT
     *
@@ -55,12 +57,12 @@ FROM
     [inputevent]
     WHERE latitude > -10000 AND longitude > -10000
 
-5. **Data Lake Gen2**:
+6. **Data Lake Gen2**:
    - Created and named Azure Storage Account for Data Lake Gen2.
    - Utilize the Data Lake in Azure Synapse Analytics to create a serverless SQL pool.
    - Created an external table for ranking boat data, leveraging Data Lake Gen2 as a data source.
 
-6. **Power BI Dashboard**:
+7. **Power BI Dashboard**:
    - Created a workspace in Power BI Service.
    - Developed real-time data visualization, including a maps and a live tile.
 
