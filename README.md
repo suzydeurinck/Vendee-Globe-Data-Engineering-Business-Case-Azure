@@ -18,14 +18,14 @@ Our primary objective was to develop a cloud-based Lambda Architecture on Micros
 - **Data Insight:** Our system provides valuable insights into the Vendée Globe race, even with simulated data. It showcases our expertise in data engineering and Azure services, offering a glimpse into the potential of real-world applications.
 
 ## Technologies Used
-- **Azure Event Hub:** Used as a robust data ingestion service to collect telemetry data from sailing boats participating in the Vendée Globe race.
-- **Azure Stream Analytics Job:** Employed for real-time data processing and transformation, ensuring that up-to-the-minute race data was available for visualization.
-- **Azure Data Lake Gen 2:** Served as a secure and scalable data storage solution, housing both real-time and batch data for subsequent analysis.
-- **Azure Synapse Analytics:** Utilized for advanced analytics and querying capabilities, particularly with the serverless SQL pool, to extract meaningful insights from stored data.
+- **Azure Event Hub:** Used as our data ingestion service to collect telemetry data from sailing boats participating in the Vendée Globe race.
+- **Azure Stream Analytics Job:** Employed for real-time data processing and transformation, ensuring that data was available for visualization.
+- **Azure Data Lake Gen 2:** Served as our data storage solution, housing data for subsequent analysis.
+- **Azure Synapse Analytics:** Utilized for analytics and querying capabilities, particularly with the serverless SQL pool.
 - **Power BI:** Employed for dynamic data visualization and interactive dashboard creation, enabling users to monitor the Vendée Globe race in real time.
 - **Python:** Leveraged Python to develop a simulation application for generating telemetry data, bridging the gap when live race data was unavailable.
-- **GitHub:** Utilized GitHub as a collaborative platform for version control and project management, ensuring seamless teamwork throughout the project.
-- **Azure Portal:** Used Azure Portal for configuring and managing Azure resources, ensuring the seamless operation of our cloud-based solution.
+- **GitHub:** Utilized GitHub as a collaborative platform for project management, ensuring seamless teamwork throughout the project.
+- **Azure Portal:** Used Azure Portal for configuring and managing Azure resources.
 
 ## Methodology
 
