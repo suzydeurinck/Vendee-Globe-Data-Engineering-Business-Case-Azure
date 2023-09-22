@@ -48,12 +48,7 @@ INTO
     [outputdatalake]
 FROM
     [inputevent]
-WHERE latitude > -10000 AND longitude > -10000
-
-and
-
-SELECT
-    *
+WHERE latitude > -10000 AND longitude > -10000 and SELECT *
 INTO
     [outputpowerbi]
 FROM
