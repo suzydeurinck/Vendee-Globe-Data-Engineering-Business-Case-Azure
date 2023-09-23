@@ -70,7 +70,7 @@ These steps highlight the key actions undertaken in the Vendée Globe Data Engin
 
 ## Report Results
 
-![VendeeGlobeOverview](https://github.com/suzydeurinck/Vendee-Globe-Data-Engineering-Business-Case-Azure/blob/e1f20a30149192c2c4cb581dda29755945703bc4/VendeeGlobeOverview.png)
+![VendeeGlobeOverview](https://github.com/suzydeurinck/Vendee-Globe-Data-Engineering-Business-Case-Azure/blob/e7c9dd0970dc87455ba7f1085d0ecebe49758f70/ReportGlobeVendee.png)
 
 ![VendeeGlobeMap](https://github.com/suzydeurinck/Vendee-Globe-Data-Engineering-Business-Case-Azure/blob/e1f20a30149192c2c4cb581dda29755945703bc4/VendeeGlobeMap.png)
 
